@@ -1,0 +1,61 @@
+/* Common */
+:root {
+  /* text color */
+  --color-text-primary: rgba(255, 255, 255, 1);
+  --color-text-h1: rgba(76, 66, 119, 1);
+  --color-text-h2: rgba(122, 127, 133, 1);
+
+  /* background */
+  --color-background-body: rgb(210, 210, 210, 1);
+  --color-background-main: rgb(237, 159, 175, 1);
+  --color-background-list: rgb(200, 98, 120, 1);
+  --color-background-item: rgb(158, 54, 77, 1);
+
+  /* text */
+  --text-primary: "Arial", sans-serif;
+}
+
+/* delete list-style */
+.list {
+  list-style: none;
+  /* margin: 0; */
+}
+
+body {
+  background-color: var(--color-background-body);
+  padding: 20px;
+}
+
+/* div */
+div {
+  background-color: var(--color-background-main);
+  font-family: var(--text-primary);
+  color: var(--color-text-primary);
+  font-size: 30px;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  text-align: left;
+  margin: 0px;
+  padding: 20px;
+}
+
+ol {
+  list-style-position: inside;
+  padding: 20px;
+  margin: 0px;
+}
+
+/* li */
+li {
+  background-color: var(--color-background-list);
+  padding: 20px;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+span {
+  background-color: var(--color-background-item);
+  padding: 20px;
+}
